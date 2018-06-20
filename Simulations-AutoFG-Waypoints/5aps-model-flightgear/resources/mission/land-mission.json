@@ -1,0 +1,21 @@
+{
+    "origin" : [-21.88173080966617, -47.90392752740328, 3044.56415],
+    "steps" : [
+        {
+            "stepType" : "ROUTE",
+            "mode" : "LAND",
+            "waypointColor" : [1.0, 1.0, 0.0, 0.1],
+            "waypointSize" : 10.0,
+            "waypoints" : [
+                [0, 0, 100],
+                [0, 500, 50],
+                [400, 1000, 0]
+            ]
+        },
+        {
+            "stepType" : "COMMAND",
+            "commandType" : "GENERIC",
+            "command" : "STOP"
+        }
+    ]
+}

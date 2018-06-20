@@ -1,0 +1,43 @@
+{
+    "origin" : [-21.88173080966617, -47.90392752740328, 2644.56415],
+    "steps" : [
+        {
+            "stepType" : "ROUTE",
+            "mode" : "TAKEOFF",
+            "waypointColor" : [1.0, 0.0, 0.0, 0.1],
+            "waypointSize" : 10.0,
+            "waypoints" : [
+                [0, 0, 0],
+                [0, 2000, 100],
+                [0, 5000, 100]
+            ]
+        },
+        {
+            "stepType" : "ROUTE",
+            "mode" : "FLY",
+            "waypointColor" : [0.0, 1.0, 0.0, 0.1],
+            "waypointSize" : 10.0,
+            "waypoints" : [
+                [0, 7500, 150],
+                [0, 10000, 150],
+                [0, 12500, 150]
+            ]
+        },
+        {
+            "stepType" : "ROUTE",
+            "mode" : "LAND",
+            "waypointColor" : [1.0, 1.0, 0.0, 0.1],
+            "waypointSize" : 10.0,
+            "waypoints" : [
+                [0, 15000, 100],
+                [0, 17500, 50],
+                [0, 20000, 0]
+            ]
+        },
+        {
+            "stepType" : "COMMAND",
+            "commandType" : "GENERIC",
+            "command" : "STOP"
+        }
+    ]
+}

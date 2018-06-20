@@ -1,0 +1,10 @@
+2016/08/18 15:16:27 [ApsSetup][ INFO] Properties loaded
+2016/08/18 15:16:27 [ApsSetup][ INFO] Properties loaded
+2016/08/18 15:16:27 [Gateway][ INFO] Setup gateway key-connector. Key [CONTROL] connector [TcpConnector [type=TCP, server-host='localhost', server-port=0, client-host=null, client-port=7323]]
+2016/08/18 15:16:27 [Gateway][ INFO] Setup gateway key-connector. Key [MODEL] connector [TcpConnector [type=TCP, server-host='localhost', server-port=0, client-host=null, client-port=7315]]
+2016/08/18 15:16:27 [Gateway][ INFO] Setup gateway key-connector. Key [ADAPTER] connector [TcpConnector [type=TCP, server-host='localhost', server-port=0, client-host=null, client-port=7334]]
+2016/08/18 15:16:27 [Gateway][ INFO] Setup gateway key-connector. Key [VIEW] connector [TcpServerConnector [type=TCP_SERVER, server-host=null, server-port=7346, client-host=null, client-port=0]]
+2016/08/18 15:16:28 [TcpServerConnector][ INFO] TCP server connection waiting: port [7346]
+2016/08/18 15:16:28 [TcpConnector][ INFO] TCP client connection stablished: from [localhost:51650] to [localhost:7315]
+2016/08/18 15:16:28 [TcpConnector][ INFO] TCP client connection stablished: from [localhost:54134] to [localhost:7323]
+2016/08/18 15:16:28 [TcpConnector][ INFO] TCP client connection stablished: from [localhost:35456] to [localhost:7334]

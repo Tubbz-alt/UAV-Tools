@@ -1,0 +1,71 @@
+AC3Db
+MATERIAL "back" rgb 0 0 0 amb 0 0 0 emis 0 0 0 spec 0 0 0 shi 72 trans 0
+MATERIAL "color" rgb $R$ $G$ $B$ amb $R$ $G$ $B$ emis $R$ $G$ $B$ spec 0 0 0 shi 72 trans $A$
+OBJECT world
+kids 5
+OBJECT poly
+name "bottom"
+numvert 2
+0 -$D$ $D$
+0 -$D$ -$D$
+numsurf 1
+SURF 0x02
+mat 0
+refs 2
+1 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "left"
+numvert 2
+0 $D$ $D$
+0 -$D$ $D$
+numsurf 1
+SURF 0x02
+mat 0
+refs 2
+0 0 0
+1 0 0
+kids 0
+OBJECT poly
+name "right"
+numvert 3
+0 $D$ $D$
+0 $D$ -$D$
+0 -$D$ -$D$
+numsurf 1
+SURF 0x02
+mat 0
+refs 2
+1 0 0
+2 0 0
+kids 0
+OBJECT poly
+name "top"
+numvert 2
+0 $D$ $D$
+0 $D$ -$D$
+numsurf 1
+SURF 0x02
+mat 0
+refs 2
+1 0 0
+0 0 0
+kids 0
+OBJECT poly
+name "fill"
+loc 0 0 0
+numvert 4
+0 -$D$ $D$
+0 $D$ $D$
+0 $D$ -$D$
+0 -$D$ -$D$
+numsurf 1
+SURF 0x20
+mat 1
+refs 4
+3 0 0
+2 1 0
+1 1 1
+0 0 1
+kids 0

@@ -1,0 +1,15 @@
+2016/08/18 15:16:31 [ApsSetup][ INFO] Properties loaded
+2016/08/18 15:16:31 [ApsSetup][ INFO] Properties loaded
+Size: 10.0
+2016/08/18 15:16:32 [MissionWriter][ INFO] Created waypoint type: color [255, 255, 0] alpha [25] size [10.00]
+2016/08/18 15:16:33 [MissionWriter][ INFO] Created mission file: [null]
+2016/08/18 15:16:33 [FlightGearRunner][ INFO] Running FlightGear with command: [/usr/games/fgfs --aircraft=c172p --airport=SDSC --generic=socket,out,10,localhost,7412,udp,aps-protocol --generic=socket,in,10,,7413,udp,aps-protocol --altitude=3011.81 --heading=0.00 --telnet=7411 --roll=0.00 --lon=-47.90392752740328 --pitch=0.00 --lat=-21.88173080966617 --enable-hud --disable-splash-screen --fog-disable --disable-enhanced-lighting --disable-distance-attenuation --disable-clouds --timeofday=noon --prop:/controls/engines/engine[0]/starter=true --prop:/sim/current-view/view-number=2 --prop:/controls/engines/engine/throttle=0.8 --vc=110 --random-wind]
+2016/08/18 15:16:33 [FlightGearRunner][ INFO] Working dir: [/usr/share/games/flightgear]
+2016/08/18 15:16:35 [FlightGearRunner][ INFO] Enabling ATI viewport hack
+2016/08/18 15:16:37 [FlightGearRunner][ INFO] default catalog not found, installing...
+2016/08/18 15:16:42 [FlightGearRunner][ INFO] environment init
+2016/08/18 15:16:42 [FlightGearRunner][ INFO] KMA20 audio panel initialized
+2016/08/18 15:16:42 [FlightGearRunner][ INFO] KI266 dme indicator #0 initialized
+2016/08/18 15:16:43 [FlightGearRunner][ INFO] catalog download failure:http://fgfs.goneabitbursar.com/pkg/3.4.0/default-catalog.xml
+2016/08/18 15:16:49 [FlightGearRunner][ INFO] Electrical system initialized
+2016/08/18 15:16:53 [FlightGearRunner][ INFO] KAP140 power up

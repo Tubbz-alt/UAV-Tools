@@ -1,0 +1,2 @@
+-- Dados iniciais (x, y, vel[m/s], a[rad]) --
+0.06 1.87 0.00 1.643250
