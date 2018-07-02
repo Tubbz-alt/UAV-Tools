@@ -6,13 +6,12 @@ Conjunto de ferramentas desenvolvidas para automatização de voos de Veículos 
 
 Nesse projeto podemos encontrar os seguintes diretórios:
 
-* **ManagerSITL** -> 
-* **ProcessDataFG** -> 
-* **Simulations-AutoFG-Waypoints** -> Sistema de piloto automático desenvolvido por Marcelo Hossomi.
-* **Util-Spreadsheets** -> Conjunto de planilhas para diversos utilidades.
-
 * **UAV-Routes-Standard** -> Código em C que gera um conjunto de rotas com formato padrão (círculo, triângulo e retângulo).
 * **UAV-Toolkit-C** -> Conjunto de códigos em C para gerenciamento do drone.
+* **Simulations-AutoFG-Waypoints** -> Sistema de piloto automático desenvolvido por Marcelo Hossomi.
+* **ManagerSITL** -> 
+* **ProcessDataFG** -> 
+* **Util-Spreadsheets** -> Conjunto de planilhas para diversos utilidades.
 
 ## Changelog
 
