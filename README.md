@@ -7,11 +7,11 @@ Conjunto de ferramentas desenvolvidas para automatização de voos de Veículos 
 Nesse projeto podemos encontrar os seguintes diretórios:
 
 * **CreateMapArtificial** -> Código em Java que gera um conjunto de mapas artificiais para os problemas de Planejamento/Replanejamento de Rotas de VANTs. [[CreateMapArtificial](./CreateMapArtificial/)]
-* **UAV-Routes-Standard** -> Código em C que gera um conjunto de rotas com formato padrão (círculo, triângulo e retângulo). [[UAV-Routes-Standard](./UAV-Routes-Standard/)]
-* **UAV-Toolkit-C** -> Conjunto de códigos em C para gerenciamento do drone. [[UAV-Toolkit-C](./UAV-Toolkit-C/)]
+* **ManagerSITL** -> Software em Java que auxilia na automatização de simulações Software-in-the-Loop (SILT) usando o ArduPilot SITL. [[ManagerSITL](./ManagerSITL/)]
+* **ProcessDataFG** -> Software em Java que extrai informações através de imagens de múltiplas execuções do AutoFG. [[ProcessDataFG](./ProcessDataFG/)]
 * **Simulations-AutoFG-Waypoints** -> Sistema de piloto automático desenvolvido por Marcelo Hossomi. [[Simulations-AutoFG-Waypoints](./Simulations-AutoFG-Waypoints/)]
-* **ManagerSITL** -> [[ManagerSITL](./ManagerSITL/)]
-* **ProcessDataFG** -> [[ProcessDataFG](./ProcessDataFG/)]
+* **UAV-Route3DToGeo** -> Projeto em Java que converte uma rota em coordenadas cartesianas para coordenadas geográficas. [[UAV-Route3DToGeo](./UAV-Route3DToGeo/)]
+* **UAV-Toolkit-C** -> Conjunto de códigos em C para gerenciamento do drone. [[UAV-Toolkit-C](./UAV-Toolkit-C/)]
 * **Util-Spreadsheets** -> Conjunto de planilhas para diversos utilidades. [[Util-Spreadsheets](./Util-Spreadsheets/)]
 
 ## Changelog
