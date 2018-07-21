@@ -14,13 +14,17 @@ Nesse projeto podemos encontrar os seguintes diretórios:
 * **UAV-Toolkit-C** -> Conjunto de códigos em C para gerenciamento do drone. [[UAV-Toolkit-C](./UAV-Toolkit-C/)]
 * **Util-Spreadsheets** -> Conjunto de planilhas para diversos utilidades. [[Util-Spreadsheets](./Util-Spreadsheets/)]
 
+## Contributors
+
+Os principais contribuidores desse projeto podem ser encontrados [aqui](https://github.com/jesimar/UAV-Tools/blob/master/AUTHORS)
+
 ## Changelog
 
 A versão do ChangeLog pode ser acessado [aqui](https://github.com/jesimar/UAV-Tools/blob/master/CHANGELOG.md). 
 
 ## Licença
 
-UAV-Toolkit está disponível sobre código aberto com permissões [GNU General Public License v3.0](https://github.com/jesimar/UAV-Tools/blob/master/LICENSE). 
+UAV-Tools está disponível sobre código aberto com permissões [GNU General Public License v3.0](https://github.com/jesimar/UAV-Tools/blob/master/LICENSE). 
 
 ------
 
