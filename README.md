@@ -10,6 +10,7 @@ Nesse projeto podemos encontrar os seguintes diretórios:
 * **ManagerSITL** -> Software em Java que auxilia na automatização de simulações Software-in-the-Loop (SILT) usando o ArduPilot SITL. [[ManagerSITL](./ManagerSITL/)]
 * **ProcessDataFG** -> Software em Java que extrai informações através de imagens de múltiplas execuções do AutoFG. [[ProcessDataFG](./ProcessDataFG/)]
 * **Simulations-AutoFG-Waypoints** -> Sistema de piloto automático desenvolvido por Marcelo Hossomi. [[Simulations-AutoFG-Waypoints](./Simulations-AutoFG-Waypoints/)]
+* **UAV-Plot-Mission** -> Sistema para plotar o mapa da missão e sua rota. [[UAV-Plot-Mission](./UAV-Plot-Mission/)]
 * **UAV-Route3DToGeo** -> Projeto em Java que converte uma rota em coordenadas cartesianas para coordenadas geográficas. [[UAV-Route3DToGeo](./UAV-Route3DToGeo/)]
 * **UAV-Toolkit-C** -> Conjunto de códigos em C para gerenciamento do drone. [[UAV-Toolkit-C](./UAV-Toolkit-C/)]
 * **Util-Spreadsheets** -> Conjunto de planilhas para diversos utilidades. [[Util-Spreadsheets](./Util-Spreadsheets/)]
