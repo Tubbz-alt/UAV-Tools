@@ -1,5 +1,17 @@
 # UAV-Tools
 
+<p align="center">
+  <a href="#">
+    <img src="https://img.shields.io/badge/UAV-TOOLS-brightgreen.svg" alt="UAV-Tools">
+  </a>
+  <a href="https://github.com/jesimar/UAV-Tools/blob/master/LICENSE" target="_blank">
+    <img src="https://img.shields.io/aur/license/yaourt.svg" alt="License">
+  </a>
+  <a href="https://github.com/jesimar/UAV-Tools/pulse" target="_blank">
+    <img src="https://img.shields.io/github/downloads/jesimar/UAV-Tools/total.svg" alt="Downloads">
+  </a>
+</p>
+
 Conjunto de ferramentas desenvolvidas para automatização de voos de Veículos Aéreos Não-Tripulados (VANTs) ou *Unmanned Aerial Vehicles* (UAVs).
 
 ## Visão Geral
