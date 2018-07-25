@@ -4,6 +4,11 @@
 
 ### Features:
 
+* Updated the documentation
+* Added directory Missions-Ardupilot-SITL
+* Added Code UAV-Ensemble-GA-GA_GA-GH
+* Added Code UAV-Exec-PathReplanner-Massive
+* Added Code UAV-Fixed-Route4s
 * Added Code UAV-Plot-Mission
 * Added Code UAV-Toolkit-C
 * Added Code UAV-Route3DToGeo
