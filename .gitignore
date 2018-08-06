@@ -21,3 +21,14 @@ test/
 mav.parm
 mav.tlog
 mav.tlog.raw
+/UAV-Map-Converter/nbproject/private/
+/UAV-Map-Converter/dist/
+/Buzzer-PC/nbproject/private/
+/Buzzer-PC/dist/
+/Alarm-PC/nbproject/private/
+/ScreenShot/nbproject/private/
+/ScreenShot-PC/nbproject/private/
+/Video-PC/nbproject/private/
+/Video-PC/dist/
+/ScreenShot-PC/dist/
+/Alarm-PC/dist/

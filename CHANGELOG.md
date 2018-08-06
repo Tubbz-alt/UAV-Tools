@@ -4,6 +4,11 @@
 
 ### Features:
 
+* Added code Alarm-PC
+* Added code Buzzer-PC
+* Added code ScreenShot-PC
+* Added code Video-PC
+* Added code UAV-Map-Converter. That convert maps in JSON and XML formats.
 * Updated the documentation
 * Added directory Missions-Ardupilot-SITL
 * Added Code UAV-Ensemble-GA-GA_GA-GH
