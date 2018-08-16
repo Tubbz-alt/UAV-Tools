@@ -16,12 +16,12 @@ public class UAVMapConverter {
      */
     public static void main(String[] args) {
         String dir = "maps/";
-        String type = "1";
+        String type = "2";
         boolean printPrettyFormat = true;
         String typeConversion = "JSON";
         if (args.length > 0){
             if (args[0].equals("--help")){
-                System.out.println("Command: java -jar UAVMapConverter.jar DIR TYPE_MAP PRINT_PRETTY_FORMAT TYPE_CONVERSION");
+                System.out.println("Command: java -jar UAV-Map-Converter.jarDIR TYPE_MAP PRINT_PRETTY_FORMAT TYPE_CONVERSION");
                 System.out.println("\tDIR -> dir where are the maps.");
                 System.out.println("\t\tExample: mission/");
                 System.out.println("\tTYPE_MAP -> 1 - NFZ Map       2 - Full Map");
