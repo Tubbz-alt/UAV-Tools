@@ -30,6 +30,7 @@ Nesse projeto podemos encontrar os seguintes diretórios:
 * **UAV-Map-Converter** -> Sistema desenvolvido para converter os mapas em formato .SGL para os formatos .JSON e .XML. [[UAV-Map-Converter](./UAV-Map-Converter/)]
 * **UAV-Plot-Mission** -> Sistema para plotar o mapa da missão e sua rota. [[UAV-Plot-Mission](./UAV-Plot-Mission/)]
 * **UAV-Route3DToGeo** -> Projeto em Java que converte uma rota em coordenadas cartesianas para coordenadas geográficas. [[UAV-Route3DToGeo](./UAV-Route3DToGeo/)]
+* **UAV-Routes-Standard** -> Código em C que gera um conjunto de rotas com formato padrão (círculo, triângulo e retângulo). [[UAV-Routes-Standard](./UAV-Routes-Standard/)]
 * **UAV-Toolkit-C** -> Conjunto de códigos em C para gerenciamento do drone. [[UAV-Toolkit-C](./UAV-Toolkit-C/)]
 * **Util-Spreadsheets** -> Conjunto de planilhas para diversos utilidades. [[Util-Spreadsheets](./Util-Spreadsheets/)]
 

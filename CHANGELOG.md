@@ -1,9 +1,10 @@
 # Changelog
 
-## Version v2.0.0 (16/08/2018)
+## Version v2.0.0 (17/08/2018)
 
 ### Features:
 
+* Added code UAV-Routes-Standard.
 * Added directory Libs.
 * Code separated by directory Modules-IFA and Modules-MOSA.
 * Added code Temperature-PC.
