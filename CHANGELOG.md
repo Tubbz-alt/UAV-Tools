@@ -1,5 +1,13 @@
 # Changelog
 
+## Version v2.1.0 (08/10/2018)
+
+### Features:
+
+* Added code replanner-making-line-java
+* Added code planner-making-square-java
+* Added code Photo-In-Sequence-PC.
+
 ## Version v2.0.0 (17/08/2018)
 
 ### Features:

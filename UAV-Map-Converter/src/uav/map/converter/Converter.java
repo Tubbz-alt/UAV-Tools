@@ -19,7 +19,7 @@ import java.io.PrintStream;
  */
 public class Converter {
     
-    private static final boolean IS_PRINT = false;
+    public static final boolean IS_PRINT = false;
 
     public static String convertToJSON(Object obj) {
         Gson gson = new Gson();

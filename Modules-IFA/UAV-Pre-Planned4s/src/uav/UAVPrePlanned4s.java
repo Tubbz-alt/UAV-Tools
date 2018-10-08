@@ -1,4 +1,4 @@
-package uav.fixed_route4s;
+package uav;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author jesimar
  */
-public class UAVFixedRoute4s {
+public class UAVPrePlanned4s {
 
     private final String nameFileFailure = "position-failure.txt";
     private final String dirFiles = "./routes-iros-new-2018/";
@@ -25,13 +25,13 @@ public class UAVFixedRoute4s {
      * @throws java.io.FileNotFoundException
      */
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        UAVFixedRoute4s uav = new UAVFixedRoute4s();
+        UAVPrePlanned4s uav = new UAVPrePlanned4s();
         uav.readFilePositionFailure();
         File file = uav.findFileWithBestRoute();
         uav.copyFile(file, new File("route.txt"));
     }
 
-    public UAVFixedRoute4s() {
+    public UAVPrePlanned4s() {
         this.filePositionFailure = new File(nameFileFailure);
     }
     

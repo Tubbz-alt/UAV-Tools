@@ -2,7 +2,7 @@ package uav.map.converter.map;
 
 /**
  *
- * @author Jesimar Arantes
+ * @author Jesimar S. Arantes
  */
 public enum TypeRegion {
     

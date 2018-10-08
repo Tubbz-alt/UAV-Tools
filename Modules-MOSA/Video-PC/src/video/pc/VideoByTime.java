@@ -17,14 +17,14 @@ import java.util.Date;
  * @author Jesimar Arantes
  */
 public class VideoByTime {
-    
-    private static final int TIME = 10000; 
 
     public static void main(String[] args) throws IOException {
-        VideoByTime main = new VideoByTime();
-    }
-
-    public VideoByTime() throws IOException {
+        int time;
+        if (args.length >= 1){
+            time = Integer.parseInt(args[0]);
+        }else{
+            time = 10;
+        }
         try {
             //Temp file for the Recorder
             String dateHour = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss").format(new Date());
@@ -43,7 +43,7 @@ public class VideoByTime {
             ScreenRecorder screenRecorder = new DesktopScreenRecorder(out, listener);
             screenRecorder.startRecording();
             try{
-                Thread.sleep(TIME);
+                Thread.sleep(time * 1000);
                 screenRecorder.stopRecording();
                 //We reformat the video to .mov file
                 RecordingConverter.main(new String[]{file.getAbsolutePath()});
