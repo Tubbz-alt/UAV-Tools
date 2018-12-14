@@ -28,7 +28,8 @@ public class VideoByTime {
         try {
             //Temp file for the Recorder
             String dateHour = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss").format(new Date());
-            File file = new File(".", "video_" + dateHour + ".cap");
+            String dir = "./videos/";
+            File file = new File(dir + "video_" + dateHour + ".cap");
             OutputStream out = new FileOutputStream(file);
             ScreenRecorderListener listener = new ScreenRecorderListener() {
                 @Override

@@ -119,21 +119,13 @@ public class GoogleMapsScene extends Application {
 
     public void addMarker(double lat, double lng, String key, String label) {
         Platform.runLater(() -> {
-            try{
-                engine.executeScript("addMarker(" + lat + "," + lng + ",'" + key + "'," + undefined(label) + ");");
-            } catch (Exception ex) {
-
-            }
+            engine.executeScript("addMarker(" + lat + "," + lng + ",'" + key + "'," + undefined(label) + ");");
         });
     }
 
     public void delMarker(String key) {
         Platform.runLater(() -> {
-            try{
-                engine.executeScript("delMarker('" + key + "');");
-            } catch (Exception ex) {
-
-            }
+            engine.executeScript("delMarker('" + key + "');");
         });
     }
 
@@ -142,22 +134,18 @@ public class GoogleMapsScene extends Application {
         Platform.runLater(() -> {
             String coords = "var coords = [\n" + Arrays.stream(points).map(p -> "{lat: " + p.getX() + ", lng: " + p.getY() + "}").reduce("", (a, c) -> a + ",\n\t" + c).substring(2) + "];\n";
             //System.out.println(coords);
-            try{
-                engine.executeScript(
-                        coords
-                        + "var poly = new google.maps.Polygon({\n"
-                        + "   paths: coords,\n"
-                        + "   strokeColor: '" + strokeColor + "',\n"
-                        + "   strokeOpacity: " + strokeOpacity + ",\n"
-                        + "   strokeWeight: " + strokeWeight + ",\n"
-                        + "   fillColor: '" + fillColor + "',\n"
-                        + "   fillOpacity: " + fillOpacity + "\n"
-                        + "});\n"
-                        + "poly.setMap(map);"
-                );
-            } catch (Exception ex) {
-
-            }
+            engine.executeScript(
+                    coords
+                    + "var poly = new google.maps.Polygon({\n"
+                    + "   paths: coords,\n"
+                    + "   strokeColor: '" + strokeColor + "',\n"
+                    + "   strokeOpacity: " + strokeOpacity + ",\n"
+                    + "   strokeWeight: " + strokeWeight + ",\n"
+                    + "   fillColor: '" + fillColor + "',\n"
+                    + "   fillOpacity: " + fillOpacity + "\n"
+                    + "});\n"
+                    + "poly.setMap(map);"
+            );
         });
     }
 
@@ -166,30 +154,22 @@ public class GoogleMapsScene extends Application {
         Platform.runLater(() -> {
             String lines = "var lines = [\n" + Arrays.stream(points).map(p -> "{lat: " + p.getX() + ", lng: " + p.getY() + "}").reduce("", (a, c) -> a + ",\n\t" + c).substring(2) + "];\n";
             //System.out.println(lines);
-            try {
-                engine.executeScript(
-                        lines
-                        + "var line = new google.maps.Polyline({\n"
-                        + "   path: lines,\n"
-                        + "   strokeColor: '" + strokeColor + "',\n"
-                        + "   strokeOpacity: " + strokeOpacity + ",\n"
-                        + "   strokeWeight: " + strokeWeight + ",\n"
-                        + "   map: map\n"
-                        + "});"
-                );
-            } catch (Exception ex) {
-
-            }
+            engine.executeScript(
+                    lines
+                    + "var line = new google.maps.Polyline({\n"
+                    + "   path: lines,\n"
+                    + "   strokeColor: '" + strokeColor + "',\n"
+                    + "   strokeOpacity: " + strokeOpacity + ",\n"
+                    + "   strokeWeight: " + strokeWeight + ",\n"
+                    + "   map: map\n"
+                    + "});"
+            );
         });
     }
 
     public void setCenter(double lat, double lng) {
         Platform.runLater(() -> {
-            try{
-                engine.executeScript("map.setCenter({lat: " + lat + ", lng: " + lng + "})");
-            } catch (Exception ex) {
-
-            }    
+            engine.executeScript("map.setCenter({lat: " + lat + ", lng: " + lng + "})");
         });
     }
 }

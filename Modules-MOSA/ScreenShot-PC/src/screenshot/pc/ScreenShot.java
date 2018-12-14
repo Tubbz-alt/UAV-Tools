@@ -25,7 +25,7 @@ public class ScreenShot {
     public static void main(String[] args) throws AWTException, IOException, InterruptedException {
         String dateHour = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss").format(new Date());
         String name = "screenshot";
-        String dir = "./";
+        String dir = "./pictures/";
         BufferedImage image = new Robot().createScreenCapture(
                 new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
         ImageIO.write(image, "png", new File(dir + name + "_" + dateHour + ".png"));

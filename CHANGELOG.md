@@ -4,6 +4,7 @@
 
 ### Features:
 
+* Added code UAV-PosAnalyser and UAV-Monitoring
 * Added code replanner-making-line-java
 * Added code planner-making-square-java
 * Added code Photo-In-Sequence-PC.

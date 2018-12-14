@@ -27,7 +27,8 @@ public class VideoByCommand {
     public VideoByCommand() throws IOException {
         try {
             //Temp file for the Recorder
-            File file = new File(".", "video.cap");
+            String dir = "./videos/";
+            File file = new File(dir + "video.cap");
             OutputStream out = new FileOutputStream(file);
             ScreenRecorderListener listener = new ScreenRecorderListener() {
                 @Override

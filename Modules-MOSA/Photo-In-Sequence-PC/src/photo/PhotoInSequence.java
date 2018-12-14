@@ -19,7 +19,7 @@ public class PhotoInSequence {
 
     public static void main(String[] args) throws AWTException, IOException, InterruptedException {
         String name = "screenshot";
-        String dir = "./"; 
+        String dir = "./photos-in-sequence/"; 
         int number;
         int delay;
         if (args.length > 1){

@@ -27,6 +27,8 @@ Nesse projeto podemos encontrar os seguintes diretórios:
 * **ProcessDataFG** -> Software em Java que extrai informações através de imagens de múltiplas execuções do AutoFG. [[ProcessDataFG](./ProcessDataFG/)]
 * **Simulations-AutoFG-Waypoints** -> Sistema de piloto automático desenvolvido por Marcelo Hossomi. [[Simulations-AutoFG-Waypoints](./Simulations-AutoFG-Waypoints/)]
 * **UAV-Google-Maps** -> Sistema desenvolvido para plotar informações usando o Google Maps (utilizando a biblioteca do Márcio Arantes). [[UAV-Google-Maps](./UAV-Google-Maps/)]
+* **UAV-Monitoring** -> Aplicação que faz o monitoramento dos sensores e informações da aeronave. [[UAV-Monitoring](./UAV-Monitoring/)]
+* **UAV-PosAnalyser** -> Aplicação que faz o monitoramento da posição da aeronave. [[UAV-PosAnalyser](./UAV-PosAnalyser/)]
 * **UAV-Map-Converter** -> Sistema desenvolvido para converter os mapas em formato .SGL para os formatos .JSON e .XML. [[UAV-Map-Converter](./UAV-Map-Converter/)]
 * **UAV-Plot-Mission** -> Sistema para plotar o mapa da missão e sua rota. [[UAV-Plot-Mission](./UAV-Plot-Mission/)]
 * **UAV-Route3DToGeo** -> Projeto em Java que converte uma rota em coordenadas cartesianas para coordenadas geográficas. [[UAV-Route3DToGeo](./UAV-Route3DToGeo/)]
