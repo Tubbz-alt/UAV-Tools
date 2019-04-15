@@ -1,8 +1,8 @@
 # Create Map Artificial
  
-Esse projeto auxilia a criar automaticamente um conjunto de instâncias de mapas artificias. Os arquivos de mapas suportados funcionam tanto no formato dos planejadores quanto dos replanejadores utilizados.
+Esse projeto auxilia a criar automaticamente um conjunto de instâncias de mapas artificias. Os arquivos de mapas suportados funcionam tanto no formato dos planejadores quanto dos replanejadores utilizados. Esse sistema dá suporte a gerar automaticemente um conjunto de instâncias, ao invés de apenas uma.
 
-Este projeto foi desenvolvido em Java usando o IDE [Geany](https://www.geany.org/). 
+Este projeto foi desenvolvido em Java utilizando a IDE [Netbeans](https://netbeans.org/). 
 
 ## Como Executar
 
@@ -15,8 +15,6 @@ java -jar dist/CreateMapArtificial.jar
 ## Interface do Programa
 
 Abaixo encontra-se duas figuras contendo a interface gráfica do programa.
-
-![](../Figures/routes-simples.png)
 
 | Arquivo de Mapa do Planejador | Arquivo de Mapa Replanejador  |
 |-------------------------------|-------------------------------|
@@ -60,5 +58,3 @@ Abaixo encontra-se um arquivo de saída de uma possível instância, chamada de 
 0.82,-0.19,0.39,1.41
 -3.37,-2.78,-1.76,-2.35
 ```
-
-Esse sistema dá suporte a gerar automaticemente um conjunto de instâncias, ao invés de apenas uma.
