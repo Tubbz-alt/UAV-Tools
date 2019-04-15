@@ -1,9 +1,10 @@
 # Changelog
 
-## Version v2.1.0 (08/10/2018)
+## Version v2.1.0 (15/04/2019)
 
 ### Features:
 
+* Updated Github documentation.
 * Added code UAV-PosAnalyser and UAV-Monitoring
 * Added code replanner-making-line-java
 * Added code planner-making-square-java
